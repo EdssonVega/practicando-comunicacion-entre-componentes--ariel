@@ -1,0 +1,15 @@
+.practicingButton{
+    background: linear-gradient(to bottom, #0575e6, #021b79);
+    color:white;
+    border-radius: 5px;
+    height: 3rem;
+    width: 50%;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.practicingButton:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}

@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import InputText from './components/inputText/inputText';
+import TextField from './components/textField/textField';
+import Button from './components/button/button';
+import Modal from "./components/modal/modal"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <h1>Lets get in touch!</h1>
+        <InputText />
+        <TextField />
+        <Button />
+      </form>
+      <Modal />
     </div>
   );
 }

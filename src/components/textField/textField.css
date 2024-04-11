@@ -1,0 +1,24 @@
+.textFieldContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 50px;
+    gap: 10px;
+}
+
+.textFieldContainer label{
+    cursor: pointer;
+    font-size: 1.25rem;
+    background: linear-gradient(to bottom, #0575e6, #021b79);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.textFieldContainer textarea{
+    background-color: transparent;
+    border:1px solid #021b79;
+    outline: none;
+    border-radius: 5px;
+    padding:15px;
+    height: 4rem;
+}
